@@ -1,6 +1,5 @@
 ---
 - hosts: hostname
-  become_user: root
   tasks:
     - name: Install Samba Service
       yum:
